@@ -40,7 +40,12 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(uniqueConstraints = @UniqueConstraint(columnNames = { "performance_id", "section_id" }))
 public class SectionAllocation implements Serializable {
-    public static final int EXPIRATION_TIME = 60 * 1000;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -839045325024591979L;
+
+	public static final int EXPIRATION_TIME = 60 * 1000;
 
     /* Declaration of fields */
 

@@ -29,6 +29,10 @@ import java.util.Iterator;
 import javax.xml.bind.annotation.XmlRootElement;@XmlRootElement
 public class VenueDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3491500555779717333L;
 	private Long id;
 	private String name;
 	private AddressDTO address;

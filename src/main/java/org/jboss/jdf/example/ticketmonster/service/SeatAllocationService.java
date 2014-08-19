@@ -18,7 +18,6 @@ import org.jboss.jdf.example.ticketmonster.model.SectionAllocation;
  *
  * @author Marius Bogoevici
  */
-@SuppressWarnings("serial")
 public class SeatAllocationService {
 
 

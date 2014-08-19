@@ -8,6 +8,10 @@ import org.jboss.jdf.example.ticketmonster.rest.dto.NestedVenueDTO;
 import javax.xml.bind.annotation.XmlRootElement;@XmlRootElement
 public class SectionDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5985388029005136754L;
 	private Long id;
 	private String name;
 	private String description;

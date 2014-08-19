@@ -6,6 +6,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 public class NestedEventCategoryDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2101762610302189615L;
 	private Long id;
 	private String description;
 

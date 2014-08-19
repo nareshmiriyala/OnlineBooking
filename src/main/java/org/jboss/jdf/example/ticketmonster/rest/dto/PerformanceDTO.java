@@ -9,6 +9,10 @@ import java.util.Date;
 import javax.xml.bind.annotation.XmlRootElement;@XmlRootElement
 public class PerformanceDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4123460071613126752L;
 	private Long id;
 	private NestedShowDTO show;
 	private Date date;

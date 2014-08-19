@@ -6,6 +6,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 public class NestedShowDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8505414134977556356L;
 	private Long id;
 	private String displayTitle;
 

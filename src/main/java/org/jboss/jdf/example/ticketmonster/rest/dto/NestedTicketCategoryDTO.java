@@ -6,6 +6,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 public class NestedTicketCategoryDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7258305730974891387L;
 	private Long id;
 	private String description;
 

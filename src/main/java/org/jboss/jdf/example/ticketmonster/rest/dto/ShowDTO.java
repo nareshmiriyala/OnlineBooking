@@ -31,6 +31,10 @@ import org.jboss.jdf.example.ticketmonster.model.TicketPrice;
 import javax.xml.bind.annotation.XmlRootElement;@XmlRootElement
 public class ShowDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4490110459130371514L;
 	private Long id;
 	private NestedEventDTO event;
 	private Set<NestedPerformanceDTO> performances = new HashSet<NestedPerformanceDTO>();

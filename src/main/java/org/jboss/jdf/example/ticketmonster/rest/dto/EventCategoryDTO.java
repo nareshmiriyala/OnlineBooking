@@ -7,6 +7,10 @@ import javax.persistence.EntityManager;
 import javax.xml.bind.annotation.XmlRootElement;@XmlRootElement
 public class EventCategoryDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7292158340900966263L;
 	private Long id;
 	private String description;
 

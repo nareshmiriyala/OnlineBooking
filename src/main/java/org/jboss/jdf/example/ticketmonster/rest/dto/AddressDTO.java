@@ -5,6 +5,10 @@ import org.jboss.jdf.example.ticketmonster.model.Address;
 import javax.persistence.EntityManager;
 public class AddressDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4677038389878974424L;
 	private String street;
 	private String city;
 	private String country;

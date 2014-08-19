@@ -10,6 +10,10 @@ import org.jboss.jdf.example.ticketmonster.rest.dto.NestedTicketCategoryDTO;
 import javax.xml.bind.annotation.XmlRootElement;@XmlRootElement
 public class TicketPriceDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6452301420151402868L;
 	private Long id;
 	private NestedShowDTO show;
 	private NestedSectionDTO section;

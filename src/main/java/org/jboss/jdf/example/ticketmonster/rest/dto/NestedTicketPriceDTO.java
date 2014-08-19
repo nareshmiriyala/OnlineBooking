@@ -6,6 +6,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 public class NestedTicketPriceDTO implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7917203046206419415L;
 	private Long id;
 	private float price;
 	private String displayTitle;
